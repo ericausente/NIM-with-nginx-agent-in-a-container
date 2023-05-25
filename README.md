@@ -40,12 +40,12 @@ You have 9 outdated formulae installed.
 
 Clone the NGINX Agent Github repository:
 ```
-git clone https://github.com/nginxinc/nginx-agent.git 
+$ git clone https://github.com/nginx/agent.git
 ```
 
 Navigate to the repository's root directory:
 ```
-cd nginx-agent 
+cd agent 
 ```
 
 You need to obtain an NGINX Plus license in the form of .crt and .key files, and copy them to the [PATH_TO_NGINX_AGENT_SRC_ROOT]/build directory. Let's assume the license files are named nginx-repo.crt and nginx-repo.key.
